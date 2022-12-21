@@ -1,0 +1,105 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(160deg, #0093e9 10%, #80d0c7 100%);
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 95%;
+  height: 90vh;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: -120px;
+}
+.clock {
+  width: 600px;
+  height: 600px;
+  border-radius: 500px;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(9.5px);
+  border: 30px solid rgba(255, 255, 255, 0.842);
+  box-shadow: 2px 1px 6px rgb(22, 143, 199);
+  transform: translateY(55px);
+}
+.clock-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+section .second {
+  background-color: black;
+  border: 0.5px solid rgb(255, 255, 255);
+}
+.hand {
+  width: 47%;
+  background-color: aliceblue;
+  border: 0.5px solid rgb(0, 0, 0);
+  height: 8px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+}
+.element {
+  width: 550px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(9.5px);
+  -webkit-backdrop-filter: blur(9.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-transform: capitalize;
+  font-size: large;
+  padding: 10px;
+  margin-top: 115px;
+  text-align: center;
+}
+.num span {
+  position: absolute;
+  font-size: 35px;
+}
+span:nth-child(1) {
+  left: 50%;
+}
+span:nth-child(2) {
+  left: 96%;
+  bottom: 47%;
+}
+span:nth-child(3) {
+  bottom: 0%;
+  left: 50%;
+}
+span:nth-child(4) {
+  bottom: 48%;
+  left: 2%;
+}
+.footer {
+  text-align: center;
+  margin-top: -15px;
+  margin-bottom: 42px;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+}
+i {
+  color: rgb(0, 0, 0);
+}i:hover {
+  color: rgb(33, 114, 235);
+}
+.vibeNotes{
+  font-size: 1.3rem;
+}
